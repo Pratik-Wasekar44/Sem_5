@@ -184,6 +184,9 @@ TypeError: 'int' object is not callable
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: 'module' object is not callable
+>>> x = str(1)
+>>> x
+'1'
 >>> x = float(3)
 >>> x
 3.0
